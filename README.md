@@ -236,7 +236,10 @@ plot V(in1)+8 V(in2)+6 V(in3)+4 V(in4)+2 V(out)
   
 ## Layout
 
-
+```
+# Change direcory to access Layout files
+cd PLL_OSU180_Workshop/Layout/`
+```
   
 ### Standard cell Layout
   
