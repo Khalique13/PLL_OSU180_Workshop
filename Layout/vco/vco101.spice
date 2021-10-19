@@ -1,0 +1,87 @@
+* SPICE3 file created from vco101.ext - technology: scmos
+
+.option scale=0.1u
+
+M1000 vdd a_33_11# a_30_13# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1001 gnd vin a_51_53# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 a_93_13# a_91_11# a_70_11# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1003 a_114_13# a_11_11# a_91_11# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 gnd vin a_33_11# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1005 vdd a_33_11# a_51_13# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 a_30_53# a_28_11# a_11_11# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1007 gnd vin a_72_53# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 gnd a_11_11# fout gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 vdd a_33_11# a_33_11# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 a_72_53# a_70_11# a_49_11# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 a_30_13# a_28_11# a_11_11# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 vdd a_33_11# a_72_13# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1013 a_51_53# a_49_11# a_28_11# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 gnd vin a_93_53# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1015 gnd vin a_114_53# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 vdd a_11_11# fout vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1017 gnd vin a_30_53# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 a_72_13# a_70_11# a_49_11# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1019 a_93_53# a_91_11# a_70_11# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 a_114_53# a_11_11# a_91_11# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1021 a_51_13# a_49_11# a_28_11# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 vdd a_33_11# a_93_13# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1023 vdd a_33_11# a_114_13# vdd pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 vdd a_91_11# 0.18fF
+C1 a_33_11# a_91_11# 0.17fF
+C2 a_49_11# vin 0.21fF
+C3 a_28_11# vin 0.20fF
+C4 vin a_70_11# 0.21fF
+C5 vdd a_49_11# 0.19fF
+C6 vdd fout 0.12fF
+C7 a_33_11# a_49_11# 0.17fF
+C8 vdd a_28_11# 0.18fF
+C9 a_33_11# a_28_11# 0.16fF
+C10 vdd a_70_11# 0.19fF
+C11 a_33_11# a_70_11# 0.17fF
+C12 a_91_11# a_11_11# 0.10fF
+C13 a_49_11# a_11_11# 0.04fF
+C14 fout a_11_11# 0.07fF
+C15 a_28_11# a_11_11# 0.10fF
+C16 a_33_11# vin 0.13fF
+C17 a_11_11# a_70_11# 0.04fF
+C18 a_33_11# vdd 0.82fF
+C19 a_91_11# a_70_11# 0.07fF
+C20 a_28_11# a_49_11# 0.07fF
+C21 a_49_11# a_70_11# 0.07fF
+C22 a_11_11# vin 0.14fF
+C23 a_91_11# vin 0.21fF
+C24 vdd a_11_11# 0.25fF
+C25 a_33_11# a_11_11# 0.11fF
+C26 a_33_11# gnd 0.51fF
+C27 a_91_11# gnd 0.47fF
+C28 a_70_11# gnd 0.49fF
+C29 a_49_11# gnd 0.49fF
+C30 vin gnd 1.13fF
+C31 a_28_11# gnd 0.48fF
+C32 a_11_11# gnd 0.77fF
+C33 fout gnd 0.21fF
+C34 vdd gnd 2.95fF

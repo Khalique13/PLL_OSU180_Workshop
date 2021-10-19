@@ -1,0 +1,41 @@
+* SPICE3 file created from mux21.ext - technology: scmos
+
+.option scale=0.1u
+
+M1000 out a_13_n5# i1 gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1001 a_13_n5# sel gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 out sel i1 w_0_20# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1003 i2 sel out gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 a_13_n5# sel vdd w_0_20# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1005 i2 a_13_n5# out w_0_20# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 i2 i1 0.02fF
+C1 w_0_20# i1 0.04fF
+C2 out i2 0.14fF
+C3 i1 a_13_n5# 0.43fF
+C4 i1 sel 0.15fF
+C5 out w_0_20# 0.03fF
+C6 out a_13_n5# 0.01fF
+C7 out sel 0.24fF
+C8 i2 w_0_20# 0.04fF
+C9 w_0_20# vdd 0.04fF
+C10 i2 a_13_n5# 0.09fF
+C11 i2 sel 0.56fF
+C12 out i1 0.19fF
+C13 w_0_20# a_13_n5# 0.10fF
+C14 w_0_20# sel 0.18fF
+C15 a_13_n5# vdd 0.08fF
+C16 vdd sel 0.01fF
+C17 a_13_n5# sel 0.29fF
+C18 i2 gnd 0.26fF
+C19 out gnd 0.10fF
+C20 i1 gnd 0.09fF
+C21 a_13_n5# gnd 0.41fF
+C22 sel gnd 0.56fF
+C23 vdd gnd 0.24fF
+C24 w_0_20# gnd 0.79fF

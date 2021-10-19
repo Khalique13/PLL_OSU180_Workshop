@@ -1,0 +1,206 @@
+* SPICE3 file created from pfd.ext - technology: scmos
+
+.option scale=0.1u
+
+M1000 a_88_128# a_50_58# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1001 a_30_n90# a_35_n110# a_30_n135# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 a_54_79# a_30_79# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1003 a_71_79# a_54_79# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 a_50_58# a_56_3# a_50_5# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1005 vdd a_35_n110# a_30_n90# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 vdd a_35_102# a_30_79# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1007 a_56_3# a_50_58# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 a_56_n71# a_50_n69# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 a_35_102# a_80_n36# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 vdd a_71_n135# a_35_n110# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 up a_35_102# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 a_12_n135# fvco_8 gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1013 vdd a_71_79# a_35_102# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 a_50_n22# a_30_n90# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1015 a_35_n110# a_80_n36# a_93_n135# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 a_30_79# a_35_102# a_30_128# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1017 a_77_5# a_50_58# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 a_80_n36# a_30_n90# a_115_5# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1019 vdd a_80_n36# a_56_3# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 a_80_n36# a_113_3# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1021 a_110_5# a_30_79# a_105_5# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 a_56_n71# a_80_n36# a_77_n22# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1023 a_80_n36# a_50_58# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 a_71_n135# a_54_n135# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1025 a_50_n69# a_30_n90# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 a_35_n110# a_80_n36# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1027 a_50_58# a_30_79# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1028 a_50_5# a_30_79# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1029 a_54_n135# a_30_n90# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1030 dn a_35_n110# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1031 a_71_79# a_54_79# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 up a_35_102# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1033 vdd a_80_n36# a_56_n71# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 a_12_n135# fvco_8 vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1035 a_93_n135# a_71_n135# a_88_n135# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 a_88_n135# a_50_n69# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1037 a_54_79# a_30_79# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1038 vdd a_30_n90# a_80_n36# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1039 vdd a_30_79# a_80_n36# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1040 a_50_n69# a_56_n71# a_50_n22# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1041 a_30_n90# a_12_n135# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1042 vdd a_56_3# a_50_58# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1043 a_12_79# fin gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1044 a_35_102# a_80_n36# a_93_128# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1045 a_35_n110# a_50_n69# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1046 vdd a_56_n71# a_50_n69# vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1047 a_71_n135# a_54_n135# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1048 a_30_79# a_12_79# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1049 a_54_n135# a_30_n90# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1050 a_30_n135# a_12_n135# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1051 a_93_128# a_71_79# a_88_128# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1052 a_56_3# a_80_n36# a_77_5# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1053 a_115_5# a_113_3# a_110_5# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1054 a_30_128# a_12_79# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1055 a_105_5# a_50_58# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1056 a_12_79# fin vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1057 a_77_n22# a_50_n69# gnd gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1058 dn a_35_n110# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1059 a_35_102# a_50_58# vdd vdd pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 a_50_58# a_80_n36# 0.31fF
+C1 up a_35_102# 0.05fF
+C2 vdd a_12_n135# 0.28fF
+C3 a_35_n110# a_30_n90# 0.14fF
+C4 vdd a_80_n36# 0.81fF
+C5 a_35_n110# a_54_n135# 0.02fF
+C6 a_30_79# a_50_58# 0.48fF
+C7 a_50_n69# vdd 0.49fF
+C8 a_71_79# a_35_102# 0.09fF
+C9 a_54_79# a_35_102# 0.02fF
+C10 a_50_n69# a_80_n36# 0.18fF
+C11 a_30_n90# a_56_n71# 0.20fF
+C12 vdd dn 0.13fF
+C13 vdd a_12_79# 0.28fF
+C14 a_30_79# vdd 0.47fF
+C15 a_54_n135# a_71_n135# 0.05fF
+C16 a_30_79# a_80_n36# 0.08fF
+C17 vdd fin 0.07fF
+C18 a_54_79# a_71_79# 0.05fF
+C19 a_35_n110# a_12_n135# 0.18fF
+C20 a_35_n110# vdd 0.56fF
+C21 a_113_3# a_30_n90# 0.20fF
+C22 a_12_79# fin 0.05fF
+C23 a_35_n110# a_80_n36# 0.19fF
+C24 a_50_58# a_35_102# 0.06fF
+C25 vdd a_71_n135# 0.28fF
+C26 a_35_n110# a_50_n69# 0.06fF
+C27 vdd a_56_n71# 0.29fF
+C28 a_54_n135# a_30_n90# 0.07fF
+C29 a_71_n135# a_80_n36# 0.22fF
+C30 vdd a_35_102# 0.56fF
+C31 a_56_n71# a_80_n36# 0.02fF
+C32 a_35_n110# dn 0.05fF
+C33 a_50_58# a_56_3# 0.09fF
+C34 a_80_n36# a_35_102# 0.19fF
+C35 a_50_n69# a_71_n135# 0.36fF
+C36 vdd up 0.13fF
+C37 a_50_n69# a_56_n71# 0.14fF
+C38 a_50_58# a_71_79# 0.35fF
+C39 vdd a_56_3# 0.29fF
+C40 a_56_3# a_80_n36# 0.02fF
+C41 a_12_79# a_35_102# 0.17fF
+C42 a_50_58# a_30_n90# 0.00fF
+C43 a_30_79# a_35_102# 0.14fF
+C44 vdd a_71_79# 0.28fF
+C45 a_113_3# vdd 0.07fF
+C46 a_54_79# vdd 0.27fF
+C47 a_80_n36# a_71_79# 0.21fF
+C48 a_113_3# a_80_n36# 0.12fF
+C49 vdd a_30_n90# 0.46fF
+C50 a_30_79# a_56_3# 0.23fF
+C51 a_30_n90# a_80_n36# 0.13fF
+C52 a_35_n110# a_71_n135# 0.09fF
+C53 vdd a_54_n135# 0.27fF
+C54 a_50_n69# a_30_n90# 0.01fF
+C55 a_30_79# a_113_3# 0.29fF
+C56 a_30_79# a_54_79# 0.07fF
+C57 a_12_n135# fvco_8 0.05fF
+C58 a_30_79# a_30_n90# 0.00fF
+C59 vdd fvco_8 0.07fF
+C60 vdd a_50_58# 0.66fF
+C61 dn gnd 0.22fF
+C62 a_71_n135# gnd 0.61fF
+C63 a_54_n135# gnd 0.62fF
+C64 a_35_n110# gnd 0.87fF
+C65 a_12_n135# gnd 0.57fF
+C66 fvco_8 gnd 0.33fF
+C67 a_50_n69# gnd 0.85fF
+C68 a_56_n71# gnd 0.40fF
+C69 a_30_n90# gnd 1.46fF
+C70 a_113_3# gnd 0.38fF
+C71 a_56_3# gnd 0.48fF
+C72 up gnd 0.22fF
+C73 a_80_n36# gnd 2.11fF
+C74 a_50_58# gnd 1.31fF
+C75 a_71_79# gnd 0.60fF
+C76 a_54_79# gnd 0.61fF
+C77 a_30_79# gnd 1.36fF
+C78 a_35_102# gnd 0.85fF
+C79 a_12_79# gnd 0.56fF
+C80 fin gnd 0.32fF
+C81 vdd gnd 9.82fF

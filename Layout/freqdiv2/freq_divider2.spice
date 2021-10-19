@@ -1,0 +1,87 @@
+* SPICE3 file created from freq_divider2.ext - technology: scmos
+
+.option scale=0.1u
+
+M1000 gnd a_41_n16# a_61_n18# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1001 a_51_n16# a_48_n2# a_41_n16# w_n4_n27# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 a_29_n18# clk a_2_n16# w_n4_n27# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1003 vdd a_61_n18# a_51_n16# w_n4_n27# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 a_2_n16# a_48_n2# a_41_n16# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1005 vdd q a_2_n16# w_n4_n27# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 gnd a_29_n18# q gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1007 gnd a_61_n18# a_51_n16# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 a_2_n16# clk a_41_n16# w_n4_n27# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 gnd clk a_48_n2# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 vdd clk a_48_n2# w_n4_n27# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 a_61_n18# clk a_29_n18# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 gnd q a_2_n16# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1013 a_61_n18# a_48_n2# a_29_n18# w_n4_n27# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 vdd a_29_n18# q w_n4_n27# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1015 a_51_n16# clk a_41_n16# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 a_29_n18# a_48_n2# a_2_n16# gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+M1017 vdd a_41_n16# a_61_n18# w_n4_n27# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 w_n4_n27# a_51_n16# 0.03fF
+C1 a_61_n18# w_n4_n27# 0.10fF
+C2 a_29_n18# q 0.07fF
+C3 w_n4_n27# clk 0.30fF
+C4 w_n4_n27# a_41_n16# 0.14fF
+C5 a_29_n18# a_2_n16# 0.02fF
+C6 a_51_n16# a_2_n16# 0.02fF
+C7 w_n4_n27# a_48_n2# 0.19fF
+C8 a_61_n18# a_2_n16# 0.02fF
+C9 a_51_n16# a_29_n18# 0.02fF
+C10 clk a_2_n16# 0.14fF
+C11 a_61_n18# a_29_n18# 0.57fF
+C12 a_41_n16# a_2_n16# 0.06fF
+C13 a_61_n18# a_51_n16# 0.07fF
+C14 a_48_n2# a_2_n16# 0.16fF
+C15 w_n4_n27# vdd 0.27fF
+C16 clk a_29_n18# 0.15fF
+C17 a_41_n16# a_29_n18# 0.95fF
+C18 a_51_n16# clk 0.08fF
+C19 a_51_n16# a_41_n16# 0.02fF
+C20 a_61_n18# clk 0.12fF
+C21 q vdd 0.15fF
+C22 a_29_n18# a_48_n2# 0.08fF
+C23 a_61_n18# a_41_n16# 0.09fF
+C24 a_51_n16# a_48_n2# 0.08fF
+C25 a_61_n18# a_48_n2# 0.22fF
+C26 clk a_41_n16# 0.17fF
+C27 a_2_n16# vdd 0.05fF
+C28 clk a_48_n2# 0.14fF
+C29 a_41_n16# a_48_n2# 0.16fF
+C30 a_51_n16# vdd 0.07fF
+C31 w_n4_n27# q 0.10fF
+C32 a_41_n16# vdd 0.16fF
+C33 w_n4_n27# a_2_n16# 0.06fF
+C34 a_48_n2# vdd 0.15fF
+C35 q a_2_n16# 0.09fF
+C36 w_n4_n27# a_29_n18# 0.10fF
+C37 vdd gnd 1.37fF
+C38 a_48_n2# gnd 0.81fF
+C39 a_61_n18# gnd 0.66fF
+C40 a_51_n16# gnd 0.23fF
+C41 clk gnd 0.98fF
+C42 a_41_n16# gnd 0.99fF
+C43 a_29_n18# gnd 0.68fF
+C44 q gnd 0.74fF
+C45 a_2_n16# gnd 0.50fF
+C46 w_n4_n27# gnd 3.08fF
