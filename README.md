@@ -340,7 +340,8 @@ cd PLL_OSU180_Workshop/Layout/`
 
   5. Voltage Controlled Oscillator Simulation Snap
   
-  ![vcp-post](https://user-images.githubusercontent.com/80625515/137935591-fc786f99-0931-4385-9ae6-440caeb68301.png)
+ ![vco-sim-post](https://user-images.githubusercontent.com/80625515/137947386-4c38c1e9-5661-42f3-ae1b-6053f4eb142e.png)
+
 
   6. PLL Final Simulation Snap
   
