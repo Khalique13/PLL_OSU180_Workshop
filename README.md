@@ -235,37 +235,79 @@ plot V(in1)+8 V(in2)+6 V(in3)+4 V(in4)+2 V(out)
 
   
 ## Layout
+
+
   
- 
 ### Standard cell Layout
+  
+  ```
+  cd std_cells/
+  magic -T ../SCN6M_SUBM.10.tech std_cells.mag
+  ```
   
   ![std-cell-mag](https://user-images.githubusercontent.com/80625515/137917812-22e2e3e3-5782-4239-9b55-051d3824a517.png)
 
 ### TKCON terminal Snap
   
+  ```
+  extract all
+  ext2spice chthresh 0
+  ext2spice
+  ```
+  
   ![pfd-tkcon](https://user-images.githubusercontent.com/80625515/137917695-95ee56d7-a27a-4ba7-a7a8-a4f26a3a8a65.png)
   
 ### Phase Frequency Detector Layout
   
+  ```
+  cd pfd/
+  magic -T ../SCN6M_SUBM.10.tech pfd.mag
+  ```
+  
   ![pfd-mag](https://user-images.githubusercontent.com/80625515/137917627-799b44f3-7f31-46fb-af34-42035c513df7.png)
 
  ### Voltage-Controlled Oscillator Layout 
+   
+  ```
+  cd pfd/
+  magic -T ../SCN6M_SUBM.10.tech vco101.mag
+  ```
   
   ![vco-mag](https://user-images.githubusercontent.com/80625515/137917889-2fe4fa18-ff02-403a-bb62-cbb3d0e535f5.png)
 
  ### MUX Layout 
   
+  ```
+  cd mux21/
+  magic -T ../SCN6M_SUBM.10.tech mux21.mag
+  ```
+  
   ![mux-mag](https://user-images.githubusercontent.com/80625515/137917430-483e3737-c145-4696-b835-feeddceb7fc8.png)
   
 ### Frequency Divider (/2) Layout
+  
+  ```
+  cd freqdiv2/
+  magic -T ../SCN6M_SUBM.10.tech freq_divider2.mag
+  ```
   
   ![freq2-mag](https://user-images.githubusercontent.com/80625515/137917357-3d654c84-9caa-435b-b6f3-3651ba01382e.png)
 
 ### Frequency Divider (/8) Layout
   
+  ```
+  cd freqdiv8/
+  magic -T ../SCN6M_SUBM.10.tech freq_divider8.mag
+  ```
+  
   ![freq8-mag](https://user-images.githubusercontent.com/80625515/137917403-f851cacc-1289-494a-89b8-bea4f9573670.png)
   
 ### Final PLL Layout
+  
+  ```
+  cd PLL/ 
+  magic -T ../SCN6M_SUBM.10.tech pll.mag
+  ```
   
   ![pll-mag](https://user-images.githubusercontent.com/80625515/137917759-50bd236e-6cea-4d0b-9aa2-265e97cded4c.png)
 
