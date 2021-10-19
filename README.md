@@ -316,7 +316,32 @@ cd PLL_OSU180_Workshop/Layout/`
 
 
 ## Post-Layout Simulation
+  
+  ![pfd-post-sim](https://user-images.githubusercontent.com/80625515/137934471-e42e38d9-842f-4f78-ba8b-a7c8eee02135.png)
 
+  ![mux-post-sim](https://user-images.githubusercontent.com/80625515/137934546-9994597b-cf52-41d9-a031-0c463c93dc05.png)
+
+  ![freqdiv-post-sim](https://user-images.githubusercontent.com/80625515/137934571-b4fde167-7ea9-4815-aaa5-7a3b0ad9e5cb.png)
+
+  ![freqdiv8-post-sim](https://user-images.githubusercontent.com/80625515/137935295-8d2500f3-b760-4024-b9b1-8813bb3e9e53.png)
+
+  ![vcp-post](https://user-images.githubusercontent.com/80625515/137935591-fc786f99-0931-4385-9ae6-440caeb68301.png)
+
+  ![pll-post](https://user-images.githubusercontent.com/80625515/137935825-a0c8680a-8a23-4b22-a362-301175354e85.png)
+
+  ![pll3-post](https://user-images.githubusercontent.com/80625515/137935865-625170e3-896a-42e8-8ca4-33641ad94d97.png)
+
+  ![pll4post](https://user-images.githubusercontent.com/80625515/137935900-4894b4e3-6522-476f-be25-b20d04e593f5.png)
+
+  ![pllv2-vcp-post](https://user-images.githubusercontent.com/80625515/137935995-4275daaf-4c76-46a8-8682-f4f7da901179.png)
+
+![pllv2-post](https://user-images.githubusercontent.com/80625515/137936016-5a620799-cc41-4106-b305-d59efd6709d5.png)
+
+  ![pllv2-2post](https://user-images.githubusercontent.com/80625515/137936071-67e25448-5ad3-44ad-a3a9-e122e7ac926e.png)
+
+  ![pllv2-3-post](https://user-images.githubusercontent.com/80625515/137936101-2ab247e7-b794-4370-889f-7979d1247736.png)
+
+  
 ## References
 
 - https://github.com/parasgidd/avsdpll_3v3.git
