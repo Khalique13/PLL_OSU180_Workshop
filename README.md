@@ -25,6 +25,9 @@ In view of its usefulness, the phase locked loop or PLL is found in many wireles
 
 Here is a block diagram of PLL.
 
+![blockdiagram](https://user-images.githubusercontent.com/80625515/137904145-fcaccd2a-aef9-4177-a52c-9dea5fee8af9.jpg)
+
+
 <picture-block-diagram>
 
 ## Tools Used
@@ -37,6 +40,10 @@ Here is a block diagram of PLL.
 
 Inverter 
 
+
+
+  ![inv-schematic](https://user-images.githubusercontent.com/80625515/137901210-03f1a56c-6673-41e7-8e31-224aa3378ecb.png)
+  
 ```
 ****************************
 *Inverter
@@ -59,8 +66,12 @@ plot v(in)+2 v(out)
 .end
 
 ```
-
+  
+  
 2-input NAND Gate
+  
+ ![nand-schematic](https://user-images.githubusercontent.com/80625515/137901358-b05e4d9a-b78e-483d-b1a9-bcc804084aa1.png)
+ 
 
 ```
 ****************************
@@ -125,6 +136,9 @@ plot V(in1)+6 V(in2)+4 V(in3)+2 V(out)
 
 ```
 
+  
+4-input NAND Gate
+  
 ```
 ****************************
 *4 input nand
@@ -160,8 +174,65 @@ plot V(in1)+8 V(in2)+6 V(in3)+4 V(in4)+2 V(out)
 
 ## Pre-Layout Simulation
 
+### Inverter Simulation Snap
+  
+ ![inv term](https://user-images.githubusercontent.com/80625515/137901545-cbca9b36-7a73-410a-884f-2830c7f443e9.png)
+
+### Inverter Waveform Snap
+  
+  ![inv-wave](https://user-images.githubusercontent.com/80625515/137901695-07899fb0-24fb-4250-a8c6-8b9827291a50.png)
+
+### NAND Simulation Snap
+  
+  ![nand-simulation](https://user-images.githubusercontent.com/80625515/137902275-223f81b5-08ad-453f-bf98-32f191f57f5b.png)
+
+### NAND Waveform Snap
+  
+  ![nand-wave](https://user-images.githubusercontent.com/80625515/137902390-d8c48e12-ba58-4f1f-a68e-29015bb1ecbb.png)
+
+### 3-input NAND Simulation Snap
+  
+  ![nand3-sim](https://user-images.githubusercontent.com/80625515/137902961-97bd7d56-5fd0-4115-9902-a62baa495b2d.png)
+
+### 3-input NAND Waveform Snap
+  
+  ![nand3-wave](https://user-images.githubusercontent.com/80625515/137903046-a9706ad1-aaf1-4532-a815-ba0b2d31fbe5.png)
+
+### 4-input NAND Simulation Snap
+  
+  ![nand4-sim](https://user-images.githubusercontent.com/80625515/137903691-2f12e153-fa7c-4540-ad92-597e37bf821e.png)
+
+### 4-input NAND Waveform Snap
+  
+  ![nand4-wave](https://user-images.githubusercontent.com/80625515/137903717-afbe908c-b933-478b-989e-7f9c19a51de9.png)
+
+### Phase Frequency Detector simulation Snap
+  
+  ![pfd-sim](https://user-images.githubusercontent.com/80625515/137904692-8a8cdbf1-8425-40d7-9a13-5185c8e5da77.png)
+
+### Phase Frequency Detector Waveform Snap
+  
+  ![pfd-wave](https://user-images.githubusercontent.com/80625515/137904930-f66de482-099c-459e-a19e-b06e93f94a6a.png)
+
+  
+### Charge Pump with Phase Detector Waveform Snap  
+  
+  ![cf-wave](https://user-images.githubusercontent.com/80625515/137905602-90326688-0378-45da-af1b-5373efd5ebe6.png)
+
+### Voltage Controlled Oscillator Simulation Snap
+  
+  ![vco-wave](https://user-images.githubusercontent.com/80625515/137906098-84e42774-461f-474f-b7e8-4145e516677b.png)
+
+### Frequency-Divider Simulation Waveform Snap
+  
+  ![freq-div-wave](https://user-images.githubusercontent.com/80625515/137906528-60dbc888-4471-49eb-99c3-dc23b7377a8d.png)
+
+### Final PLL Waveform Snap
+  
+  ![pll-wave](https://user-images.githubusercontent.com/80625515/137906946-32a9f03a-ff6c-4998-8401-620fe318e0fe.png)
 
 
+  
 ## Layout
 
 ## Post-Layout Simulation
