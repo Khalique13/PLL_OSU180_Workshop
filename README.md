@@ -232,8 +232,43 @@ plot V(in1)+8 V(in2)+6 V(in3)+4 V(in4)+2 V(out)
   ![pll-wave](https://user-images.githubusercontent.com/80625515/137906946-32a9f03a-ff6c-4998-8401-620fe318e0fe.png)
 
 
+
   
 ## Layout
+  
+ 
+### Standard cell Layout
+  
+  ![std-cell-mag](https://user-images.githubusercontent.com/80625515/137917812-22e2e3e3-5782-4239-9b55-051d3824a517.png)
+
+### TKCON terminal Snap
+  
+  ![pfd-tkcon](https://user-images.githubusercontent.com/80625515/137917695-95ee56d7-a27a-4ba7-a7a8-a4f26a3a8a65.png)
+  
+### Phase Frequency Detector Layout
+  
+  ![pfd-mag](https://user-images.githubusercontent.com/80625515/137917627-799b44f3-7f31-46fb-af34-42035c513df7.png)
+
+ ### Voltage-Controlled Oscillator Layout 
+  
+  ![vco-mag](https://user-images.githubusercontent.com/80625515/137917889-2fe4fa18-ff02-403a-bb62-cbb3d0e535f5.png)
+
+ ### MUX Layout 
+  
+  ![mux-mag](https://user-images.githubusercontent.com/80625515/137917430-483e3737-c145-4696-b835-feeddceb7fc8.png)
+  
+### Frequency Divider (/2) Layout
+  
+  ![freq2-mag](https://user-images.githubusercontent.com/80625515/137917357-3d654c84-9caa-435b-b6f3-3651ba01382e.png)
+
+### Frequency Divider (/8) Layout
+  
+  ![freq8-mag](https://user-images.githubusercontent.com/80625515/137917403-f851cacc-1289-494a-89b8-bea4f9573670.png)
+  
+### Final PLL Layout
+  
+  ![pll-mag](https://user-images.githubusercontent.com/80625515/137917759-50bd236e-6cea-4d0b-9aa2-265e97cded4c.png)
+
 
 ## Post-Layout Simulation
 
